@@ -60,7 +60,7 @@ class desk_controller:
 
 if __name__ == "__main__":
     from sys import argv
-    bt_addr='48:70:1E:32:A7:D1' # <------ REPLACE ME!
+    bt_addr='34:e3:1a:12:A5:D3' # <------ REPLACE ME!
     action = argv[1]
     if action == 'raise' or action == 'lower':
         reps=int(argv[2])

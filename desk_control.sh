@@ -7,23 +7,11 @@
 # i.e. api, web-server, cron-job, etc.
 ####
 #This bluetooth address is (most likely) unique to my desk. 
-bt_addr="48:70:1E:32:A7:D1"
+bt_addr="34:e3:1a:12:A5:D3"
 #Refer to README.md for instructions to find your own...but if you can't even find your own address...why are you reading my code?
 
-function raise_desk(){ #The Desk shall RISE! by approximately .3inch
-    gatttool -b $1 --char-write-req -a 0x0025 -n f1f10100017e
-}
-
-function lower_desk(){ #The Desk shall bow before you! But a slight, polite bow of only ~.3"
-    gatttool -b $1 --char-write-req -a 0x0025 -n f1f10200027e
-}
-
-function setting_one(){ #This is the setting "1" you've previously saved using the physical buttons
-    gatttool -b $1 --char-write-req -a 0x0025 -n f1f10500057e
-}
-
-function setting_two(){ #This is the setting one higher than "1".
-    gatttool -b $1 --char-write-req -a 0x0025 -n f1f10600067e
+function adjust_desk(){
+    gatttool -b $1 --char-write-req -a 0x0025 -n $2
 }
 
 function show_help(){
@@ -45,22 +33,22 @@ while getopts "hlrs:" arg; do
         h)
             show_help
             ;;
-        l)
-            lower_desk $bt_addr
+        l) # lower desk
+            adjust_desk $bt_addr f1f10200027e #The Desk shall bow before you! But a slight, polite bow of only ~.3"
             break
             ;;
-        r)
-            raise_desk $bt_addr
+        r) # raise desk
+            adjust_desk $bt_addr f1f10100017e #The Desk shall RISE! by approximately .3inch
             break
             ;;
-        s)
+        s) # setting
             setting=$OPTARG
             case $setting in
                 sit)
-                    setting_one $bt_addr
+                    adjust_desk $bt_addr f1f10500057e
                     ;;
                 stand)
-                    setting_two $bt_addr
+                    adjust_desk $bt_addr f1f10600067e
                     ;;
             esac
             ;;

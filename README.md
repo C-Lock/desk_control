@@ -35,12 +35,12 @@
 ## Contents
 | File | Description |
 | ------ | ------|
-| desk_control.sh : | The core of the desk-control ecosystem. Basic. Get's the Job done. Great for impressing the ladies with Command Line superpowers.  |
-| desk_control.py : | A Python3 implementation of the same code. Slightly more refined, designed to allow for easy importing (to an api, maybe write your own app?) |
-| desk_characteristics.txt : | Data from the bluetooth reconnaisance |
-| bluetooth_ctl_properties.txt : | Some attempted reconnaisance using bluetoothctl. MUCH Less useful than gatttool. |
-| README.MD : | A useless file full of sentimental reminiscing |
-| delta.txt : | A saved version of advertised BT data after making a change to height. There's no discernable declaration of the desk height, though. So it's a useless file. (I'm gonna go back to this and learn more, it's simply ***GOT*** to have the data.)
+| desk_control.sh  | The core of the desk-control ecosystem. Basic. Get's the Job done. Great for impressing the ladies with Command Line superpowers.  |
+| desk_control.py  | A Python3 implementation of the same code. Slightly more refined, designed to allow for easy importing (to an api, maybe write your own app?) |
+| desk_characteristics.txt  | Data from the bluetooth reconnaisance |
+| bluetooth_ctl_properties.txt  | Some attempted reconnaisance using bluetoothctl. MUCH Less useful than gatttool. |
+| README.MD  | A useless file full of sentimental reminiscing |
+| delta.txt  | A saved version of advertised BT data after making a change to height. There's no discernable declaration of the desk height, though. So it's a useless file. (I'm gonna go back to this and learn more, it's simply ***GOT*** to have the data.)
 
 ---
 ## Requirements
