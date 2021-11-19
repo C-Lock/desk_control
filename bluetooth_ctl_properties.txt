@@ -1,0 +1,167 @@
+#This is a mostly useless file. I tried using bluetoothctl because my laptops bluetooth chip wouldn't suport an lescan.
+#Everything here is much more well documented in desk_characteristics.txt
+
+[NEW] Primary Service
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service000c
+        00001801-0000-1000-8000-00805f9b34fb
+        Generic Attribute Profile
+[NEW] Characteristic
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service000c/char000d
+        00002a05-0000-1000-8000-00805f9b34fb
+        Service Changed
+[NEW] Descriptor
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service000c/char000d/desc000f
+        00002902-0000-1000-8000-00805f9b34fb
+        Client Characteristic Configuration
+[NEW] Primary Service
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0010
+        0000180a-0000-1000-8000-00805f9b34fb
+        Device Information
+[NEW] Characteristic
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0010/char0011
+        00002a23-0000-1000-8000-00805f9b34fb
+        System ID
+[NEW] Characteristic
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0010/char0013
+        00002a24-0000-1000-8000-00805f9b34fb
+        Model Number String
+[NEW] Characteristic
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0010/char0015
+        00002a25-0000-1000-8000-00805f9b34fb
+        Serial Number String
+[NEW] Characteristic
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0010/char0017
+        00002a26-0000-1000-8000-00805f9b34fb
+        Firmware Revision String
+[NEW] Characteristic
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0010/char0019
+        00002a27-0000-1000-8000-00805f9b34fb
+        Hardware Revision String
+[NEW] Characteristic
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0010/char001b
+        00002a28-0000-1000-8000-00805f9b34fb
+        Software Revision String
+[NEW] Characteristic
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0010/char001d
+        00002a29-0000-1000-8000-00805f9b34fb
+        Manufacturer Name String
+[NEW] Characteristic
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0010/char001f
+        00002a2a-0000-1000-8000-00805f9b34fb
+        IEEE 11073-20601 Regulatory Cert. Data List
+[NEW] Characteristic
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0010/char0021
+        00002a50-0000-1000-8000-00805f9b34fb
+        PnP ID
+[NEW] Primary Service
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023
+        0000ff12-0000-1000-8000-00805f9b34fb
+        Unknown
+[NEW] Characteristic
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char0024
+        0000ff01-0000-1000-8000-00805f9b34fb
+        Unknown
+[NEW] Descriptor
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char0024/desc0026
+        00002901-0000-1000-8000-00805f9b34fb
+        Characteristic User Description
+[NEW] Characteristic
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char0027
+        0000ff02-0000-1000-8000-00805f9b34fb
+        Unknown
+[NEW] Descriptor
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char0027/desc0029
+        00002902-0000-1000-8000-00805f9b34fb
+        Client Characteristic Configuration
+[NEW] Descriptor
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char0027/desc002a
+        00002901-0000-1000-8000-00805f9b34fb
+        Characteristic User Description
+[NEW] Characteristic
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char002b
+        0000ff03-0000-1000-8000-00805f9b34fb
+        Unknown
+[NEW] Descriptor
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char002b/desc002d
+        00002901-0000-1000-8000-00805f9b34fb
+        Characteristic User Description
+[NEW] Characteristic
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char002e
+        0000ff04-0000-1000-8000-00805f9b34fb
+        Unknown
+[NEW] Descriptor
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char002e/desc0030
+        00002901-0000-1000-8000-00805f9b34fb
+        Characteristic User Description
+[NEW] Characteristic
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char0031
+        0000ff05-0000-1000-8000-00805f9b34fb
+        Unknown
+[NEW] Descriptor
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char0031/desc0033
+        00002901-0000-1000-8000-00805f9b34fb
+        Characteristic User Description
+[NEW] Characteristic
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char0034
+        0000ff06-0000-1000-8000-00805f9b34fb
+        Unknown
+[NEW] Descriptor
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char0034/desc0036
+        00002901-0000-1000-8000-00805f9b34fb
+        Characteristic User Description
+[NEW] Characteristic
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char0037
+        0000ff07-0000-1000-8000-00805f9b34fb
+        Unknown
+[NEW] Descriptor
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char0037/desc0039
+        00002901-0000-1000-8000-00805f9b34fb
+        Characteristic User Description
+[NEW] Characteristic
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char003a
+        0000ff08-0000-1000-8000-00805f9b34fb
+        Unknown
+[NEW] Descriptor
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char003a/desc003c
+        00002901-0000-1000-8000-00805f9b34fb
+        Characteristic User Description
+[NEW] Characteristic
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char003d
+        0000ff09-0000-1000-8000-00805f9b34fb
+        Unknown
+[NEW] Descriptor
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char003d/desc003f
+        00002901-0000-1000-8000-00805f9b34fb
+        Characteristic User Description
+[NEW] Characteristic
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char0040
+        0000ff0a-0000-1000-8000-00805f9b34fb
+        Unknown
+[NEW] Descriptor
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char0040/desc0042
+        00002901-0000-1000-8000-00805f9b34fb
+        Characteristic User Description
+[NEW] Characteristic
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char0043
+        0000fff0-0000-1000-8000-00805f9b34fb
+        Unknown
+[NEW] Descriptor
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char0043/desc0045
+        00002901-0000-1000-8000-00805f9b34fb
+        Characteristic User Description
+[NEW] Characteristic
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char0046
+        0000fff1-0000-1000-8000-00805f9b34fb
+        Unknown
+[NEW] Descriptor
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char0046/desc0048
+        00002901-0000-1000-8000-00805f9b34fb
+        Characteristic User Description
+[NEW] Characteristic
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char0049
+        0000fff2-0000-1000-8000-00805f9b34fb
+        Unknown
+[NEW] Descriptor
+        /org/bluez/hci0/dev_48_70_1E_32_A7_D1/service0023/char0049/desc004b
+        00002901-0000-1000-8000-00805f9b34fb
+        Characteristic User Description
