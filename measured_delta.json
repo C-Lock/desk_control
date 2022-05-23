@@ -1,0 +1,114 @@
+{
+    "values": [
+        {
+            "notif": "Notification handle = 0x0028 value: f2 f2 01 03 01 22 03 2a 7e",
+            "App_Data" : "73",
+            "Measured" : ".671"
+        },
+        {
+            "notif": "Notification handle = 0x0028 value: f2 f2 01 03 01 1d 03 25 7e",
+            "App_Data" : "72",
+            "Measured" : ".660"
+        },
+        {
+            "notif": "Notification handle = 0x0028 value: f2 f2 01 03 01 19 03 21 7e",
+            "App_Data" : "71",
+            "Measured" : ".649"
+        },
+        {
+            "notif": "Notification handle = 0x0028 value: f2 f2 01 03 01 14 03 1c 7e",
+            "App_Data" : "70",
+            "Measured" : ".637"
+        },
+        {
+            "notif": "Notification handle = 0x0028 value: f2 f2 01 03 01 10 03 18 7e",
+            "App_Data" : "69",
+            "Measured" : ".626"
+        },
+        {
+            "notif": "Notification handle = 0x0028 value: f2 f2 01 03 01 0c 03 14 7e",
+            "App_Data" : "68",
+            "Measured" : ".615"
+        },
+        {
+            "notif": "Notification handle = 0x0028 value: f2 f2 01 03 01 07 03 0f 7e",
+            "App_Data" : "66",
+            "Measured" : ".604"
+        },
+        {
+            "notif": "Notification handle = 0x0028 value: f2 f2 01 03 01 03 03 0b 7e",
+            "App_Data" : "65",
+            "Measured" : ".592"
+        },
+        {
+            "notif": "Notification handle = 0x0028 value: f2 f2 01 03 01 22 03 2a 7e",
+            "App_Data" : "73",
+            "Measured" : ".671"
+        },
+        {
+            "notif": "Notification handle = 0x0028 value: f2 f2 01 03 01 88 03 90 7e",
+            "App_Data" : "99",
+            "Measured" : ".932"
+        },
+        {
+            "notif": "Notification handle = 0x0028 value: f2 f2 01 03 01 84 03 8c 7e",
+            "App_Data" : "98",
+            "Measured" : ".921"
+        },
+        {
+            "notif": "Notification handle = 0x0028 value: f2 f2 01 03 01 7f 03 87 7e",
+            "App_Data": "97",
+            "Measured": ".909"
+        },
+        {
+            "notif": "Notification handle = 0x0028 value: f2 f2 01 03 01 7b 03 83 7e",
+            "App_Data": "96",
+            "Measured": ".899"
+        },
+        {
+            "notif": "Notification handle = 0x0028 value: f2 f2 01 03 01 76 03 7e 7e",
+            "App_Data": "94",
+            "Measured": ".886"
+        },
+        {
+            "notif": "Notification handle = 0x0028 value: f2 f2 01 03 01 72 03 7a 7e",
+            "App_Data": "93",
+            "Measured": ".875"
+        },
+        {
+            "notif": "Notification handle = 0x0028 value: f2 f2 01 03 01 6d 03 75 7e",
+            "App_Data": "92",
+            "Measured": ".863"
+        },
+        {
+            "notif": "Notification handle = 0x0028 value: f2 f2 01 03 01 69 03 71 7e",
+            "App_Data": "91",
+            "Measured": ".851"
+        },
+        {
+            "notif": "Notification handle = 0x0028 value: f2 f2 01 03 01 64 03 6c 7e",
+            "App_Data": "90",
+            "Measured": ".839"
+        },
+        {
+            "notif": "Notification handle = 0x0028 value: f2 f2 01 03 01 5f 03 67 7e",
+            "App_Data": "89",
+            "Measured": ".828"
+        },
+        {
+            "notif": "Notification handle = 0x0028 value: f2 f2 01 03 01 5a 03 62 7e",
+            "App_Data": "87",
+            "Measured": ".816"
+        },
+        {
+            "notif": "Notification handle = 0x0028 value: f2 f2 01 03 01 56 03 5e 7e",
+            "App_Data": "86",
+            "Measured": ".804"
+        },
+        {
+            "notif": "Notification handle = 0x0028 value: f2 f2 01 03 01 51 03 59 7e",
+            "App_Data": "85",
+            "Measured": ".793"
+        }
+    ]
+}  
